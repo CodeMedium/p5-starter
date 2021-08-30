@@ -16,6 +16,7 @@
  * Color palettes
  */
 // VSCode Shades of purple editor colors
+bgColor = [0, 25, 60]
 colors = ['#ffffff', '#ff628c', '#FF9D00', '#fad000', '#2ca300', '#2EC4B6', '#5D37F0']
 
 /**
@@ -23,9 +24,7 @@ colors = ['#ffffff', '#ff628c', '#FF9D00', '#fad000', '#2ca300', '#2EC4B6', '#5D
  */
 function setup() {
   // Param args
-  params = Object.assign({
-
-  }, getURLParams())
+  params = Object.assign({}, getURLParams())
 
 	createCanvas(windowWidth, windowHeight)
 }
@@ -39,7 +38,7 @@ function draw() {
 /**
  * Returns a color in colors
  */
- function getColor (transparent = '') {
+function getColor (transparent = '') {
   return colors[Math.floor(random(colors.length))] + transparent
 }
 

@@ -1,7 +1,7 @@
 /**
  * Title
- * Started: 8/22/21
- * By: Art See Clarke
+ * Started: //21
+ * By: Oz Ramos @TheCodeMedium
  * Twitter: https://twitter.com/thecodemedium
  * GitHub: https://github.com/codemedium
  * Personal website: https://codemedium.com

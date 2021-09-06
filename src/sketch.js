@@ -1,15 +1,16 @@
 /**
- * Title
- * Started: //21
- * By: Oz Ramos @TheCodeMedium
+ * 21xxxx - 
+ * By: Oz Ramos "Art See Clarke" @TheCodeMedium
+ * https://codemedium.com
+ * ---
  * Twitter: https://twitter.com/thecodemedium
+ * Pinterest: https://www.pinterest.com/codemedium/
  * GitHub: https://github.com/codemedium
- * Personal website: https://codemedium.com
- *
- * 		 "Any sufficiently advanced technology is indistinguishable from magic"
- * 		 - Arthur C. Clarke
- *
- * Description: 
+ * Ko-Fi: https://ko-fi.com/handsfreejs
+ *---
+ * (∩｀-´)⊃━☆ﾟ.*･｡ﾟ 		 "Any sufficiently advanced technology is indistinguishable from magic"
+ * 		                    - Arthur C. Clarke
+ *---
  */
 
 /**

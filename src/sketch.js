@@ -14,18 +14,15 @@
  */
 
 /**
- * Color palettes
- */
-// VSCode Shades of purple editor colors
-bgColor = [0, 25, 60]
-colors = ['#ffffff', '#ff628c', '#FF9D00', '#fad000', '#2ca300', '#2EC4B6', '#5D37F0']
-
-/**
  * Sketch entry point
  */
 function setup() {
   // Param args
-  params = Object.assign({}, getURLParams())
+  params = Object.assign({
+    bg: '#00193c',
+    // random(params.colors)
+    colors: ['#ffffff', '#ff628c', '#FF9D00', '#fad000', '#2ca300', '#2EC4B6', '#5D37F0']
+  }, getURLParams())
 
 	createCanvas(windowWidth, windowHeight)
 }
@@ -34,13 +31,6 @@ function setup() {
  * Main draw loop
  */
 function draw() {
-}
-
-/**
- * Returns a color in colors
- */
-function getColor (transparent = '') {
-  return colors[Math.floor(random(colors.length))] + transparent
 }
 
 
